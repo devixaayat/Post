@@ -43,7 +43,7 @@ while 0 < 999:
                 else :
                     print("\033[32m[\033[31mx\033[32m] \033[31mWrong Input Try Again ")
                     time.sleep(2)
-                    os.system("python main.py")
+                    os.system("python cookie.py")
         else:
             os.system("python cookie.py")
         try:
