@@ -39,7 +39,7 @@ while 0 < 999:
                     cookies=input("\033[31m[\033[32m+\033[31m] \033[1m\033[33m Your fb Cookie:👇\n\033[33m━━━━━━━━━━━━━━━━━━━━━━━\033[36m\n" + (cookies))
                     print("\033[33m━━━━━━━━━━━━━━━━━━━━━━━")
                 elif opt == "N" or opt == "n":
-                    os.system("python cookie.py")
+                    os.system("python severmain.py")
                 else :
                     print("\033[32m[\033[31mx\033[32m] \033[31mWrong Input Try Again ")
                     time.sleep(2)
